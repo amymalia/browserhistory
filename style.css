@@ -14,3 +14,36 @@ img{
   float: left;
   margin: 10px;
 }
+
+.leftbar{
+  float: left;
+  width: 300px;
+  padding: 1em;
+}
+
+.rightbar{
+  float: right;
+  width: 300px;
+  padding: 1em;
+}
+
+.centerbar{
+  margin-left: 300px;
+  margin-right: 300px;
+  width: 300px;
+  padding: 1em;
+}
+
+#navbar ul{
+  list-style-type: none;
+  margins: 0px;
+  padding: 0px;
+}
+
+#navbar li{
+  display: inline;
+}
+
+#navbar a{
+  margin: 45px;
+}
