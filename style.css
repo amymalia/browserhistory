@@ -1,13 +1,10 @@
-h1,h2{
-  font-family: "Oswald", sans-serif;
-  color: darkblue;
+body {
+  padding-top: 70px;  /* Move body of page below navbar. */
 }
 
-body{
-  font-family: "Open Sans";
-  color: darkblue;
-  margin: 10px 50px 10px 50px;
-  background-color: ivory;
+.page-content {
+  padding: 10px;
+  text-align: center;
 }
 
 img{
@@ -15,35 +12,5 @@ img{
   margin: 10px;
 }
 
-.leftbar{
-  float: left;
-  width: 300px;
-  padding: 1em;
-}
 
-.rightbar{
-  float: right;
-  width: 300px;
-  padding: 1em;
-}
 
-.centerbar{
-  margin-left: 300px;
-  margin-right: 300px;
-  width: 300px;
-  padding: 1em;
-}
-
-#navbar ul{
-  list-style-type: none;
-  margins: 0px;
-  padding: 0px;
-}
-
-#navbar li{
-  display: inline;
-}
-
-#navbar a{
-  margin: 45px;
-}
